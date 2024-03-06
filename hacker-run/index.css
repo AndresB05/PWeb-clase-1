@@ -1,0 +1,120 @@
+.Prime{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black; 
+    margin: 10px; 
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif ;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    height: 80vh;
+    margin-top: 50px;
+    
+}
+
+.Container2 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 50vh; 
+    flex-direction: column;
+    
+  }
+
+.Box {
+    display: flex;
+}
+
+
+.Uno{
+    background-color: aqua;
+    width: 83px;
+    height: 45px;
+    color: white;
+
+}
+
+.Dos{
+    background-color: rgb(45, 90, 193);
+    width: 142px;
+    height: 45px;
+    color: white;
+
+
+}
+
+.Tres{
+    background-color: mediumorchid;
+    width: 83px;
+    height: 45px;
+    color: white;
+
+}
+
+.Cuatro{
+    background-color: navy;
+    width: 90px;
+    height: 45px;
+    color: white;
+
+}
+
+.Cinco{
+    background-color: rgb(255, 217, 0);
+    width: 200px;
+    height: 45px;
+    color: white;
+
+}
+
+.Seis{
+    background-color: rgb(255, 128, 0);
+    width: 70px;
+    height: 45px;
+    color: white;
+
+}
+
+.Uno1{
+    background-color: aqua;
+    width: 400px;
+    height: 150px;
+    color: white;
+    left: 45%;
+    bottom: 40%;
+
+}
+
+.Dos2{
+    background-color:  rgb(45, 90, 193);
+    width: 400px;
+    height: 150px;
+    color: white;
+}
+
+.Tres3{
+    background-color:  mediumorchid;
+    width: 400px;
+    height: 200px;
+    color: white;
+}
+
+.Cuatro4{
+    background-color:  navy;
+    width: 400px;
+    height: 40px;
+    color: white;
+}
+

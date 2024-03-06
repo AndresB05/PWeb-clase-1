@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121534; 
+    background-image: url("./Stars.png");
+    background-position: bottom;
+}
+
+
+
+.Formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 490px;
+    background-color: rgba(27, 33, 65, 0.1);
+    box-shadow: 32px 13px 30px#0b0d26;
+}
+
+.verde{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 7px;
+    background-color: #59ce97;
+}
+
+.Formulario h1{
+    text-align: center; 
+    margin-bottom: 150px;
+}
+
+.Formulario form{
+    padding: 0 40px;
+    color: #c8c8c8;
+    
+}
+
+.Controls{
+    color: #acb2d8;
+    width: 80%;
+    border: 1px solid #22284a;
+    margin-bottom: 20px;
+    padding: 11px 5px;
+    background: #22284a ;
+    
+    
+}
+
+.form{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.remember{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+}
+
+
+.FP{
+    margin-left: auto;
+}
+
+.Login{
+    right: 80%;
+    border: 1px solid #341212;
+   
+    width: 160px;
+    height: 40px;
+    background-color: #ea4189;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 5px 8px 16px 0px rgba(0, 0, 0, 0.5);
+
+}
+

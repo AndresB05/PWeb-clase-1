@@ -1,0 +1,24 @@
+.parrafo{
+    color:brown;
+    font-size: 30px;
+}
+
+.container{
+    color: pink;
+    font-size: 180px;
+}
+
+.render{
+    background-color: blue;
+    /*margin: 10px 15px 15px 20px;
+    margin: 10px 15px 20px;
+    margin: 10px 15px;
+    margin: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 10px solid aquamarine;
+
+}

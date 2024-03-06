@@ -98,10 +98,61 @@ console.log(capitalizar("pedro")) // "Pedro"
 console.log(capitalizar("hola mundo")) // "Hola mundo"
 console.log(capitalizar("")) // ""
 
-//7 
+//7
+
+let capitalizar2 = function(cap){
+    let mayuscula = ''; // se usa el espacio para separar
+    
+    for (let i = 0; i < cap.length; i++) {
+        if (i === 0 || cap[i - 1] === ' ') { // si hay un espacio despues de la primera letra va una mayuscula 
+
+            mayuscula += cap[i].toUpperCase(); 
+        } else {
+            mayuscula += cap[i]; 
+        }
+    }
+    return mayuscula;
+}
+console.log(capitalizar2("hola mundo")) // "Hola Mundo"
+console.log(capitalizar2("make it real")) // "Make It Real"
+console.log(capitalizar2("")) // ""
+
+//8
 let empiezanConA = function(arreglo) {
     return arreglo.filter(palabra => palabra.charAt(0).toLowerCase() === 'a'); // tolowerCase convertir una cadena de texto a minúsculas
 }                                                                              // charAt(0) para obtener la primera letra de cada palabra
 console.log(empiezanConA(["beta", "alfa", "Arbol", "gama"])) // ["alfa", "Arbol"]
 console.log(empiezanConA(["beta", "delta", "gama"])) // []
 console.log(empiezanConA([])) // []
+
+//9
+
+let removerCeros = function(arreglo) {
+    let nArreglo = []; 
+    let nuevo = 0;
+    for (let i = 0; i < arreglo.length; i++) {
+        if (arreglo[i] !== 0) {
+            nArreglo[nuevo] = arreglo[i];
+            nuevo++; 
+        }
+    }
+    return nArreglo;
+}
+console.log(removerCeros([0, 1, 0, 2, 0, 3])) // [1, 2, 3]
+console.log(removerCeros([9, 3, 6, 4])) // [9, 3, 6, 4]
+console.log(removerCeros([0, 0, 0])) // []
+
+//10
+
+let password = function(contraseña) {
+
+    return contraseña.toLowerCase()
+                 .replace(/a/g, '4')
+                 .replace(/e/g, '3')
+                 .replace(/i/g, '1')
+                 .replace(/o/g, '0')
+                 .replace(/\s/g, '');
+}
+console.log(password("hola")) // "h0l4"
+console.log(password("esta es una prueba")) // "3st43sun4pru3b4"
+console.log(password("")) // ""
